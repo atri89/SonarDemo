@@ -1,0 +1,13 @@
+{
+  "title": "static variable should be accessed by class name",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "pitfall"
+  ],
+  "defaultSeverity": "Minor"
+}

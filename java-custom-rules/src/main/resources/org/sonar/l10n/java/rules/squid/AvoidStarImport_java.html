@@ -1,0 +1,17 @@
+<p>Explicitly import the specific classes needed.</p>
+<h2>Noncompliant Code Example</h2>
+<pre>
+import java.util.*; // Noncompliant {{Explicitly import the specific classes needed.}}
+
+public class AvoidStarImportCheck {
+	
+}
+</pre>
+<h2>Compliant Solution</h2>
+<pre>
+import java.io.BufferedReader;
+
+public class AvoidStarImportCheck {
+	
+}
+</pre>
